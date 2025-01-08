@@ -1,0 +1,10 @@
+name: Primer Workflow
+on: workflow_dispatch
+jobs: 
+  primer-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir Saludo
+        run: echo "Hola mundo!"
+      - name: Imprimir Despedida
+        run: echo "Adios!"
